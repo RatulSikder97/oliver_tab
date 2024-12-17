@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "poppins", "Poppins", sans-serif;
+	user-select: none;
+}
+
+
+// define theme
+$theme: (
+    primaryColor: #bbd6fd,
+    accentColor: #ff5722,
+    textColor: #333,
+);
+
+body {
+    background-color: map-get($theme, primaryColor);
+}
